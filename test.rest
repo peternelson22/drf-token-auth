@@ -1,0 +1,19 @@
+POST http://localhost:8000/login/
+Content-Type: application/json
+
+{"username": "nelson", "password": "12345"}
+
+###
+
+POST http://localhost:8000/signup/
+Content-Type: application/json
+
+{"username": "nelson", "password": "12345", "email": "nel@gmail.com"}
+
+###
+
+GET http://localhost:8000/test/
+Content-Type: application/json
+Authorization: Token 7d005382ffd007f1aca4e7c601f6bd72c030faa9
+
+{}
